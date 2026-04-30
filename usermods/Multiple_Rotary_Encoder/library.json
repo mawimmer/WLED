@@ -1,6 +1,12 @@
 {
-  "name": "Multiple_Rotary_Encoder",
+  "name": "multiple_rotary_encoder",
+  "version": "1.0.0",
+  "description": "Multi-file rotary encoder usermod for WLED",
   "build": {
     "libArchive": false
+  },
+  "dependencies": {
+    "adafruit/Adafruit SSD1306": "*",
+    "adafruit/Adafruit GFX Library": "*"
   }
 }
